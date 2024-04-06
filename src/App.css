@@ -1,8 +1,9 @@
 .switch {
   position: relative;
-  display: inline-block;
+  display: block;
   width: 60px;
   height: 34px;
+  margin: auto;
 }
 
 .switch input {
@@ -18,7 +19,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #eb6969;
   transition: .4s;
   border-radius: 34px;
 }
@@ -30,7 +31,7 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   transition: .4s;
   border-radius: 50%;
 }
@@ -53,4 +54,21 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+img{
+  width: 100px;
+  height: auto;
+}
+.subject{
+  width: 30%;
+  padding: 5vh;
+  display: block;
+  margin: auto;
+}
+.subject img{
+  display: block;
+  margin: auto;
+}
+.subject h3, .subject p{
+  text-align: center;
 }
